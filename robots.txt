@@ -1,0 +1,9 @@
+http://app.wistia.com/sitemaps/12443.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-Agent: Googlebot
+Allow: .js
+Allow: .css

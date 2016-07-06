@@ -1,0 +1,4 @@
+[14-Jun-2013 17:28:41 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ilawyer/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[14-Jun-2013 17:28:43 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ilawyer/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[14-Jun-2013 17:28:43 America/New_York] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/ilawyer/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[14-Jun-2013 17:28:44 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/ilawyer/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
