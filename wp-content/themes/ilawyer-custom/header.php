@@ -18,33 +18,17 @@
     <![endif]-->
 
     <!-- The 1140px Grid - http://cssgrid.net/ -->
-    
-    
-    
-    
-    
-<!--
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/grid/1140.css" type="text/css"
           media="screen"/>
--->
-    
-    
-    
     <meta name="google-site-verification" content="TqIC1PJcoD9aJn10yz9gri2cY2fHmYzGzXftw3HSFvM" />
 
     <!-- Stylesheets -->
     <?php global $data; ?>
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen"/>
-
-
-
-
-<!--
     <link rel="stylesheet"
           href="<?php echo get_template_directory_uri(); ?>/css/skins/<?php echo $data['coll_alt_stylesheet']?>"
           type="text/css" media="screen" id="site_skin">
--->
 
     <?php wp_head(); ?>
 <meta name="p:domain_verify" content="18a1fa04f20ddcc940b869c573892374" />
