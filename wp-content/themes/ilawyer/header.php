@@ -33,7 +33,7 @@
     <?php wp_head(); ?>
 <meta name="p:domain_verify" content="18a1fa04f20ddcc940b869c573892374" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-
+</head>
 
 <body  <?php body_class(); ?>>
 
