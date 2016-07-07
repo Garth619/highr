@@ -29,3 +29,15 @@ function new_excerpt_more( $more ) {
 	return '... <a class="read-more-link" href="'. get_permalink( get_the_ID() ) . '">Read More</a>';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+
+
+
+/*
+function give_dequeue_plugin_css() {
+    wp_dequeue_style('superfish');
+    wp_deregister_style('superfish');
+}
+
+add_action('wp_enqueue_scripts','give_dequeue_plugin_css', 100);
+*/
