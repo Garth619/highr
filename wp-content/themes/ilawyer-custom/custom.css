@@ -1,0 +1,1367 @@
+/** Misc Rules **/
+@media only screen and (max-width: 959px) {
+    .header-new {
+        /* position:relative; */
+    }
+    .home .sf-menu a, .sf-menu a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header-new {
+        position:relative;
+    }
+}
+.whitetext {color: #fff; font-weight:normal !important; text-transform: lowercase;}
+h2 {
+    /* font-family: 'TradeGothicW01-BoldCn20 675334'; */
+    color: #2397EF;
+    font-size: 26px;
+    /* letter-spacing: 1px; */
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    padding-top:25px;
+}
+hr.full {
+    float: left;
+    width: 100%;
+    background: url(/images/longline.png) no-repeat center 0;
+    height: 4px;
+    border: 0;
+}
+.center {display: block;text-align: center;}
+.white {color: #fff;}
+.blue {color: #0079d4 !important;}
+.blueline {
+    background: #0079d4;
+    height: 1px;
+    margin: 35px 0;
+}
+body {background: #fff;}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height:1.8em;
+}
+a {
+    color: #0079D4 !important;
+}
+a:hover { color: #fff; }
+.trade {
+    font-family: 'Trade Gothic W02 Cn 18';
+    letter-spacing: 1px;
+}
+.trade-bold {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    letter-spacing: 1px;
+}
+.poly {
+    font-family: 'Poly' !important;
+    font-style: italic !important;
+}
+.statement {
+    font-family: 'poly';
+    font-style: italic;
+    color: #0088ef;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    line-height: 1.3;
+    padding: 0 110px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+/** Making Slider Full Width **/
+section#slider div.wrapper.container {padding: 0;} 
+section#slider div.wrapper.container .row {
+    max-width: none;
+}
+.flexslider {
+    box-shadow: 0 3px 5px #000;
+    -moz-box-shadow: 0 3px 5px #000;
+    -webkit-box-shadow: 0 3px 5px #000;
+}
+.mobile-img {display: none;}
+.flexslider li {
+    list-style: none !important;
+    margin-left: 0 !important;
+}
+
+/** Column Edits **/
+.one_half  {
+    width: 43% !important;
+    margin-right: 10% !important;
+}
+.one_third  {
+    width: 30% !important;
+}
+.last_column {
+    margin-right: 0px !important;
+}
+@media only screen and (max-width: 959px) {
+    .one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .zcolumn, .zresponsive {
+        float: none !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .page-template #main .row {
+        padding: 0 !important;
+    }
+}
+
+/** Logo to Full Size **/
+.header-new .row .twocol.logo {width: 25.45%;}
+.header-new .logo a {padding-top: 22px;}
+
+/** Main Menu To Fit With New Logo Width **/
+.header-new .row .tencol {width: 70.7%;}
+
+/** Customizing Top Menu Items **/
+.header-new > .container > .row {overflow:visible;}
+.home .sf-menu a, .sf-menu a {
+    font-family: 'Trade Gothic W02 Cn 18';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.home .sf-menu .sub-menu a, .sf-menu .sub-menu a {
+    color: #0079d4 !important;
+    font-size: 14px !important;
+    padding: 10px 0 !important;
+}
+.sf-menu li:hover, 
+.sf-menu li.sfHover, 
+.sf-menu a:focus, 
+.sf-menu a:hover, 
+.sf-menu a:active, 
+.sf-menu a.current {
+    background: transparent;
+    color: #fff !important;
+}
+.home .sf-menu .sub-menu a:hover, .sf-menu .sub-menu a:hover {
+    color: #fff !important;
+}
+.sf-menu .sub-menu {
+    width: 250px !important;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+}
+.sf-menu ul {padding-bottom: 0px !important;}
+.sf-menu ul li {
+    float: left !important;
+    display: block !important;
+    width: 100px;
+}
+.sf-menu li li {
+    padding-bottom: 3px !important;
+    width: 220px !important;
+    padding-right: 5px !important;
+    margin-bottom: 10px;
+}
+.sf-menu li li a {font-size: 12px !important;}
+
+/** Upper Phone Number Area **/
+#call-us .wrapper.container {
+    padding-top: 64px;
+    padding-bottom: 0px;
+    background-image: url('http://www.ilawyermarketing.com/images/phonebg.png');
+}
+#see-some-of-our-work .wrapper.container {padding-top: 64px;}
+#call-us .page-content p {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: right;
+    color: #0079d4 !important;
+    margin-bottom: 0;
+    padding-right: 20px;
+    cursor: default;
+    display: block;
+} 
+#call-us .page-content a {    color: #0079d4 !important;    cursor: default;    display: block;}
+
+/** Customizing 3 Services **/
+#our-services .wrapper.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.title h2 {
+    font-family: 'TradeGothicW01-BoldCn20 675334' !important;
+    font-size: 20px !important;
+    letter-spacing: 1px !important;
+    color: #0079d4 !important;
+}
+.title h2.border.small::after {width: 0 !important;}
+.border:after {width: 0 !important;height:0 !important;}
+.infocolumns .description p {
+    font-family: 'Trade Gothic W02 Cn 18' !important;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 1.3;
+    text-align: center;
+}
+.info-columns .items .hentry .wrapper {position: relative;} /* so the position:absolute works below */
+.info-columns .items .hentry .link { /* replacing our icons instead of their read more button */
+    position: absolute;
+    left: 43%;
+    top: -43px;
+    background: url(/images/sprite.png) no-repeat;
+    width: 50px;
+    height: 58px;
+    border: 0;
+    text-indent: -9999px;
+    -webkit-transition: none 0s ease-out;
+    -moz-transition: none 0s ease-out;
+    transition: none 0s ease-out;
+    z-index: 9999;
+    margin: 0 !important;
+    padding: 14px 12px !important;
+}
+.info-columns .items #seo.hentry .link {background: url(/images/sprite.png) -5px -290px;}
+.info-columns .items #seo.hentry .link:hover {background: url(/images/sprite.png) -4px -201px;}
+.info-columns .items #video-production.hentry .link {background: url(/images/sprite.png) -4px -496px;}
+.info-columns .items #video-production.hentry .link:hover {background: url(/images/sprite.png) -4px -402px;}
+.info-columns .items #website-design.hentry .link {background: url(/images/sprite.png) -3px -95px;}
+.info-columns .items #website-design.hentry .link:hover {background: url(/images/sprite.png) -2px -4px;}
+#our-services .row {overflow: visible;z-index: 9999;}
+#our-services {z-index: 9999;}
+.info-columns .items .hentry .wrapper {
+    position: relative;
+    margin-bottom: 0px;
+    padding: 40px 50px 0px 50px;
+}
+#slider {z-index: 10;}
+#slider p {margin-bottom: 0;}
+@media only screen and (max-width: 959px) {
+    #slider .info-columns {
+        display: none;
+    }
+}
+
+/** Why Choose **/
+#why-choose-ilawyermarking .text.type.nine span {
+    margin-top: 10px;
+}
+#no-long-term-contracts-required .text.type.eight span, #no-long-term-contracts-required .text.type.nine span {
+    letter-spacing: 2px;
+}
+/** Premier Choice Video **/
+#the-premier-choice-for-law-firm-marketing .wrapper.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#the-premier-choice-for-law-firm-marketing .fourcol {width: 100%;padding-top: 20px;}
+#the-premier-choice-for-law-firm-marketing .fourcol.page-title .text {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-size: 53px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px #fff;
+    -moz-text-shadow: 1px 1px 3px #fff;
+    -webkit-text-shadow: 1px 1px 3px #fff;
+    margin-bottom: 0px;
+}
+.wistia_embed {
+    margin: 0 auto;
+/**    width: 90% !important;
+    height: auto !important; **/
+}
+.video-box {
+    float: left;
+    width: 600px;
+}
+.video-wrapper {
+    width: 100%;
+    padding: 0 85px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.video-desc {
+    float: left;
+    width: 320px;
+    margin-left: 35px;
+}
+.video-desc h3 {
+    font-size: 24px !important;
+    margin-bottom: 20px !important;
+}
+
+
+/** What Makes Us Unique **/
+.post-1158.fp-sections.type-fp-sections.status-publish.hentry .page-background .bgimage { 
+    background-color: #0A0A0A;
+}
+
+/** Customizing Fonts **/
+.text.type.eight, .text.type.eight span {
+    font-family: 'Poly';
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: .95;
+    text-align: center;
+}
+.text.type.nine, .text.type.nine span {
+    font-family: 'Trade Gothic W02 Cn 18';
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+#what-makes-us-unique .text.type.nine span, #what-makes-us-unique .text.type.eight span, #what-makes-us-unique-pt-deux .text.type.nine span, #what-makes-us-unique-pt-deux .text.type.eight span {
+    line-height: 1.2;
+}
+
+/** Why Choose Us Section **/
+.why-choose-ilawyer {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    padding-top: 2px;
+}
+.portfolio p {
+    margin-bottom: 0;
+}
+.portfolio-header .poly {
+    font-size: 43px;
+}
+
+.portfolio-header .trade {
+    font-size: 29px;
+}
+.portfolio-header {
+    height: 35px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+#contact-us-quote .portfolio-header, .footer .portfolio-header {line-height:.5;}
+
+
+/** Portfolio Area **/
+.portfolio .filter {
+    display: none;
+}
+#see-some-of-our-work .portfolio-header .poly {color: #1c77bc !important;}
+.portfolio .items .hentry:hover .thumb img { /** zoom hover effect **/
+   -webkit-transform: scale(5);
+   -moz-transform: scale(5);
+   -o-transform: scale(5);
+   -ms-transform: scale(5);
+   transform: scale(5);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+.portfolio .items .hentry .wrapper {
+    overflow: hidden; /** so the zoom doesn't expand outside the box **/
+    padding: 0px;
+    background: #0079D3;
+    margin: 1px;
+} 
+.portfolio .items .hentry .thumb img {
+   -webkit-transform: scaleY(1);
+   -moz-transform: scaleY(1);
+   -o-transform: scaleY(1);
+   -ms-transform: scaleY(1);
+   transform: scaleY(1);
+   -webkit-transition: all 0.7s ease-in-out;
+   -moz-transition: all 0.7s ease-in-out;
+   -o-transition: all 0.7s ease-in-out;
+   -ms-transition: all 0.7s ease-in-out;
+   transition: all 0.7s ease-in-out;
+}
+.portfolio .items .hentry .info {
+   -webkit-transition: all 0.5s linear;
+   -moz-transition: all 0.5s linear;
+   -o-transition: all 0.5s linear;
+   -ms-transition: all 0.5s linear;
+   transition: all 0.5s linear;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+.portfolio .items .hentry.coll-5 .info .title {
+    font-size: 22px;
+    font-family: 'poly';
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.portfolio .items .hentry .info .text {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Trade Gothic W02 Cn 18';
+    letter-spacing: 2px;
+    text-align: center;
+    display: block;
+}
+.portfolio .items .hentry .info {
+    width: 89%;
+    margin-top: 30%;
+}
+
+.post-1163.fp-sections.type-fp-sections.status-publish.hentry .page-background .bgimage {background-color: #000;}
+
+/** Services We Offer **/
+.zcolumn {
+    width: 500px;
+    float: left;
+}
+#services-we-offer .row {
+    max-width: 1000px;
+}
+#services-we-offer .wrapper.container {
+    padding-top: 100px;
+}
+#services-we-offer .portfolio-header {padding-left: 80px;}
+@media only screen and (max-width: 768px) {
+    .zcolumn {
+        float: none;
+    }
+}
+.zcolumn .service-box {
+    width: 66%;
+    padding-left: 80px;
+    margin-bottom: 30px;
+    height: 88px;
+}
+.zcolumn .service-box#web-design {background: url(/images/sprite.png) no-repeat 0px -93px;}
+.zcolumn .service-box#seo {background: url(/images/sprite.png) no-repeat 0px -293px;}
+.zcolumn .service-box#video-production {background: url(/images/sprite.png) no-repeat 0px -495px;}
+.zcolumn .service-box#legal-content {background: url(/images/sprite.png) no-repeat 0px -693px;}
+.zcolumn .service-box#ppc {background: url(/images/sprite.png) no-repeat 0px -896px;}
+.zcolumn .service-box#law-blogs {background: url(/images/sprite.png) no-repeat 0px -1123px;}
+
+.zcolumn .service-box#web-design:hover {background: url(/images/sprite.png) no-repeat 1px -2px;}
+.zcolumn .service-box#seo:hover {background: url(/images/sprite.png) no-repeat 1px -204px;}
+.zcolumn .service-box#video-production:hover {background: url(/images/sprite.png) no-repeat 0px -401px;}
+.zcolumn .service-box#legal-content:hover {background: url(/images/sprite.png) no-repeat 1px -599px;}
+.zcolumn .service-box#ppc:hover {background: url(/images/sprite.png) no-repeat 1px -805px;}
+.zcolumn .service-box#law-blogs:hover {background: url(/images/sprite.png) no-repeat 1px -1032px;}
+
+.zcolumn .service-box p {
+    font-family: 'Trade Gothic W02 Cn 18';
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.zcolumn h3, .zcolumn h3 a, .video-desc h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #0079d4;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+/** Contact Area **/
+.post-1188.fp-sections.type-fp-sections.status-publish.hentry .page-background .bgimage {background-color:#000;}
+#contact-us-quote .wrapper.container, .footer {padding-bottom: 100px;}
+#contact-us-quote .row {max-width: 1170px;}
+
+#contact-us-quote h2, .footer h2 {
+    font-family:'Trade Gothic W02 Cn 18';
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#contact-left {
+    float: left;
+    width: 285px;
+}
+@media only screen and (max-width: 768px) {
+    #contact-left {
+
+    }
+}
+#contact-left .title {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#contact-left span, #contact-left a {
+    color: #fff;
+    font-family: 'Trade Gothic W02 Cn 18';
+    font-size: 22px;
+    text-decoration: none;
+}
+.cf-fs1, .cf-fs2 {
+    float: left;
+    width: 320px;
+    display: block;
+    overflow: hidden;
+}
+@media only screen and (max-width: 959px) {
+    .cf-fs1, .cf-fs2 {
+        float: none;
+    }
+    .cf-sb {
+        float: left;
+    }
+    #sendbutton {
+        margin-left: 100px;
+    }
+}
+.cform {
+    width: 670px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+}
+.cf-fs1 {
+    margin-right: 30px;
+}
+.cform legend, .cform label/*,  .cform .reqtxt, .cform .emailreqtxt */ {
+    display: none !important;
+}
+.cform fieldset {padding: 5px 5px 5px 0;}
+span.reqtxt,
+span.emailreqtxt {  
+    position: absolute;
+    left: 295px;
+    margin: -38px 0 0 0 !important;
+    color: #0079d4 !important;
+    font-size: 25px !important;
+    font-family: 'Trade Gothic W02 Cn 18' !important;
+}
+#map-wrap {position: relative;}
+.map-link {
+    display: block;
+    background: url(/images/smallmap.png);
+    height: 123px;
+    width: 169px;
+    margin-top: 15px;
+}
+.marker {
+    display: block;
+    background: url(/images/sprite.png) -15px -1551px;
+    height: 40px;
+    width: 36px;
+    position: absolute;
+    left: 72px;
+    top: 92px;
+    text-indent: -9999px;
+}
+.marker:hover {background: url(/images/sprite.png) -15px -1503px;}
+
+ol.cf-ol {
+    border-top: 0 !important;
+}
+ol.cf-ol li.cf-box-title {
+    margin: 0 !important;
+    padding: 8px !important;
+    font-family: 'Trade Gothic W02 Cn 18' !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    color: #0079d4 !important;
+}
+.cf-box-group label {
+    display: inline-block !important;
+    width: 270px !important;
+    margin-bottom: 9px !important;
+    padding-left: 8px;
+}
+ol.cf-ol li.cf-box-group {
+    padding: 0px 0px 0px 15px!important;
+}
+label.cf-group-after span {
+    display: inline !important;
+    font-family: 'Trade Gothic W02 Cn 18' !important;
+    color: #fff;
+    letter-spacing: 1px;
+}
+form.footer {padding:0;margin-top: -25px !important;}
+.cform input,
+.cform textarea,
+.cform select { 
+    padding: 10px 8px !important;
+    border: 0 !important; 
+    font: 0.9em 'Trade Gothic W02 Cn 18',sans-serif !important;
+    color: #818181 !important;
+    background: #373737 !important;
+    background: rgba(55, 55, 55, 0.8) !important;
+    vertical-align:top !important;
+    border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -webkit-border-radius: 8px !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 2px 2px 2px #000 !important;
+    -moz-box-shadow: 2px 2px 2px #000 !important;
+    -webkit-box-shadow: 2px 2px 2px #000 !important;
+    width: 319px !important;
+}
+.cform input:hover, .cform textarea:hover, .cform select:hover,
+.cform input:focus, .cform textarea:focus, .cform select:focus {
+    border: 0 !important;
+    background: #fff !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+.cform textarea {
+    height: 80px;
+    resize: none;
+}
+.cform textarea, .cform input {}
+.cform ol.cf-ol {padding: 0px !important;}
+.linklove {
+    display: none;
+}
+input.cf-box-b {
+    width: auto !important;
+}
+.cform input.sendbutton {
+    background: #1369ae !important;
+    border: 0 !important;
+    font-family: 'Poly' !important;
+    font-style: italic !important;
+    color: #fff !important;
+    font-size: 23px !important;
+    text-transform: lowercase;
+    padding: 3px !important;
+    width: 130px !important;
+}
+.cform input.sendbutton:hover {
+    box-shadow: 0 0 7px 2px #fff !important;
+    -moz-box-shadow: 0 0 7px 2px #fff !important;
+    -webkit-box-shadow: 0 0 7px 2px #fff !important;
+    text-shadow: 0 0 10px;
+    -moz-text-shadow: 0 0 10px;
+    -webkit-text-shadow: 0 0 10px;
+}
+p.cf-sb {margin-right: 10px !important;}
+#contact-us-quote, footer  {
+    border-bottom: 7px solid #3394dd;
+}
+footer  {
+    background: url(/images/footerbg.jpg) no-repeat center 0 #000;
+    padding-top: 50px !important;
+    background-size: cover;
+}
+footer .row {
+    max-width: 1170px;
+}
+
+
+/** INTERNAL PAGES **/
+#phone-header {
+    height: 35px;
+    background: url(/images/phonebg.png);
+    padding-top: 60px;
+}
+#phone-header p {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: right;
+    color: #fff !important;
+    margin-bottom: 0;
+    padding-right: 20px;
+} 
+#phone-header a {color:#fff !important;}
+#banner {
+    height:245px;
+    box-shadow: 0px 4px 4px #000;
+    -moz-box-shadow: 0px 4px 4px #000;
+    -webkit-box-shadow: 0px 4px 4px #000;
+    background: url(/images/internal-solutions.jpg) center 0;
+}
+#banner .row {max-width: 1170px;}
+#banner .poly {
+    font-size: 50px;
+    padding: 110px 0;
+    margin-bottom: 0;
+}
+#banner p .trade-bold {
+    font-size: 42px;
+    font-style: normal;
+}
+.page-template #main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 3px 4px #000;
+    -moz-box-shadow: 0px 3px 4px #000;
+    -webkit-box-shadow: 0px 3px 4px #000;
+    z-index: 50;
+    position: relative;
+    background-color: #efefef;
+}
+.page-template #main .row {max-width: 1170px; padding: 0 10px;}
+
+/** ABOUT PAGE **/
+.page-template-about-page-php #banner {background: url(/images/internal-about.jpg) center 0;}
+
+/** LANDING PAGE **/
+.page-template-landing-page-php #banner {
+    background: url(/images/landingbanner.jpg) center 0;
+}
+
+/** SERVICES PAGE **/
+.page-template-services-page-php #banner {background: url(/images/internal-solutions.jpg) center 0;}
+.page-template-services-page-php #main .row {max-width: 1170px; padding: 0 10px;}
+.page-template-services-page-php p.poly {font-size: 18px;}
+.page-template-services-page-php .zcolumn {
+    width: 410px;
+    float: left;
+    margin-right: 100px;
+}
+.zcolumn.right {margin-right: 0px;}
+.serv-box {
+    padding-bottom: 50px;
+}
+.serv-box .icon {
+    display: inline-block;
+    background: url(/images/sprite.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-bottom: -29px;
+    margin-left: -15px;
+}
+.serv-box h3 a {
+    display: block;
+    margin-bottom: 35px !important;
+}
+.serv-box#web-design .icon {background: url(/images/sprite.png) no-repeat 0px -97px;}
+.serv-box#seo .icon {background: url(/images/sprite.png) no-repeat 0px -291px;}
+.serv-box#video-production .icon {background: url(/images/sprite.png) no-repeat 0px -496px;}
+.serv-box#legal-content .icon {background: url(/images/sprite.png) no-repeat 0px -697px;}
+.serv-box#ppc .icon {background: url(/images/sprite.png) no-repeat 0px -902px;}
+.serv-box#law-blogs .icon {background: url(/images/sprite.png) no-repeat 0px -1121px;}
+
+.serv-box#web-design a:hover .icon {background: url(/images/sprite.png) no-repeat 1px -6px;}
+.serv-box#seo a:hover .icon {background: url(/images/sprite.png) no-repeat 1px -202px;}
+.serv-box#video-production a:hover .icon {background: url(/images/sprite.png) no-repeat 0px -402px;}
+.serv-box#legal-content a:hover .icon {background: url(/images/sprite.png) no-repeat 1px -603px;}
+.serv-box#ppc a:hover .icon {background: url(/images/sprite.png) no-repeat 1px -811px;}
+.serv-box#law-blogs a:hover .icon {background: url(/images/sprite.png) no-repeat 1px -1030px;}
+
+.read-more {
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    color: #fff !important;
+    background: #2d8ed6;
+    display: block;
+    width: 110px;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px #000;
+    -moz-box-shadow: 1px 1px 2px #000;
+    -webkit-box-shadow: 1px 1px 2px #000;
+}
+.read-more:hover {
+    color: #fff !important;
+    background: #767676;
+}
+
+/** TESTIMONIALS PAGE **/
+.page-template-testimonials-page-php #banner {background: url(/images/internal-testimonials.jpg) center 0;}
+.testimonial-inner {
+    background: url(/images/quotemark.png) no-repeat 0px 4px;
+    padding-left: 55px;
+    font-family: 'Trade Gothic W02 Cn 18';
+    font-size: 18px !important;
+}
+.testimonial-inner p {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.testimonial-inner .poly {
+    font-size: 16px;
+    text-transform: none;
+}
+.testimonial-credit {
+    background: url(/images/shortline.png) no-repeat center 80px;
+    padding-bottom: 25px;
+}
+
+
+/** CONTACT PAGE **/
+.page-template-contact-page-php #banner {background: url(/images/internal-contact.jpg) center 0;}
+.blue-button {
+    display: block;
+    background: #1369ae;
+    border: 0;
+    font-family: 'Poly';
+    font-style: italic;
+    color: #fff !important;
+    font-size: 20px;
+    text-transform: lowercase;
+    padding: 3px;
+    width: 260px;
+    text-align: center;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 2px #000;
+    -moz-box-shadow: 1px 1px 2px #000;
+    -webkit-box-shadow: 1px 1px 2px #000;
+    padding: 5px 0;
+}
+.blue-button:hover {
+    color: #fff !important;
+    background: #767676;
+}
+#contact-left-col {
+    width: 290px;
+    float: left;
+    margin-right: 25px;
+}
+#contact-left-col span.trade-bold {
+    display: block;
+    margin-bottom: 11px;
+}
+#contact-left-col span.poly {
+    font-size: 20px;
+    margin-right: 5px;
+}
+#contact-left-col span.trade {
+    font-size: 22px;
+}
+#contact-right-col {
+    float: left;
+    background: url(/images/map.png);
+    width: 630px;
+    height: 440px;
+    position: relative;
+}
+#contact-right-col .marker {
+    left: 435px;
+    top: 222px;
+    background: url(/images/sprite.png) -15px -1800px;
+    width: 50px;
+    height: 55px;
+}
+#contact-right-col .marker:hover {
+    background: url(/images/sprite.png) -15px -1738px;
+}
+#social-wrap {
+    width: 210px;
+}
+#social-wrap a {
+    display: block;
+    text-indent: -9999px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+.twitter {background: url(/images/sprite.png) -15px -1935px;}
+.facebook {background: url(/images/sprite.png) -15px -2046px;}
+.googleplus {background: url(/images/sprite.png) -15px -2162px;}
+.instagram {background: url(/images/sprite.png) -15px -2270px;}
+.linkedin {background: url(/images/sprite.png) -15px -2385px;}
+.pinterest {background: url(/images/sprite.png) -15px -2503px;}
+
+.twitter:hover {background: url(/images/sprite.png) -15px -1886px;}
+.facebook:hover {background: url(/images/sprite.png) -15px -1999px;}
+.googleplus:hover {background: url(/images/sprite.png) -15px -2112px;}
+.instagram:hover {background: url(/images/sprite.png) -14px -2222px;}
+.linkedin:hover {background: url(/images/sprite.png) -16px -2337px;}
+.pinterest:hover {background: url(/images/sprite.png) -15px -2454px;}
+
+
+
+/** PORTFOLIO PAGE **/
+.page-template-portfolio-page-php #banner {background: url(/images/internal-portfolio.jpg) center 0;}
+.portfolio-item {
+    width: 475px;
+    height: 275px;
+    float: left;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+.portfolio-item:nth-child(even) {
+    margin-right: 30px
+}
+.portfolio-info {
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 5px;
+    position: relative;
+    margin-top: -5px;
+    min-height: 73px;
+}
+.portfolio-info .trade-bold {
+    text-transform: uppercase;
+}
+.portfolio-info a {
+    display: block;
+    text-align: center;
+}
+.portfolio-info a:hover {color:#767676 !important;}
+.page-template-portfolio-page-php #main .row {max-width: 1000px; padding: 0 10px;}
+
+
+/** BLOG PAGE **/
+.page-template-template-blog-php #banner {background: url(/images/internal-blog.jpg) center 0;}
+.single .common.title .text {
+    color: #fff;
+    padding-top: 62px;
+}
+.common.title .text {
+margin-top: 0px;
+}
+.category #banner .first-word {
+    font-family: 'Poly' !important;
+    font-style: italic !important;
+    color: #0079D4;
+    text-transform: lowercase !important;
+}
+.category #banner .poly {
+    font-family: 'TradeGothicW01-BoldCn20 675334' !important;
+    font-style: normal !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.avatar-box {
+    float: left;
+    width: 100%;
+}
+/*  entry : author block
+/* ------------------------------------ */
+.entry-author-block { background: #f4f4f4; font-style: italic; padding: 15px 15px 7px 15px; margin: 10px 0; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; width: 550px; float: left;}
+.entry-author-block .entry-author-avatar { float: left; overflow: hidden; margin-bottom: 8px;}
+.entry-author-block .entry-author-avatar img { display: block; float: left; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; }
+.entry-author-block p { font-size: 13px; margin-left: 100px; margin-bottom: 8px; }
+.entry-author-block p.entry-author-name { color: #444; font-size: 14px; font-weight: 600; margin-top: 6px; margin-bottom: 6px; }
+.entry-author-block p.entry-author-description { color: #777; width:450px; }
+
+
+/** SINGLE PORTFOLIO PAGE **/
+.port-title, .serv-title {
+    background: url(/images/portfolio-internal-bgheader.jpg) no-repeat center 0 #000;
+    height: 102px;
+    padding-top: 30px;
+    box-shadow: 0px 4px 4px #000;
+    -moz-box-shadow: 0px 4px 4px #000;
+    -webkit-box-shadow: 0px 4px 4px #000;
+}
+.serv-title {background: url(/images/services-internal.jpg) no-repeat center 0 #000;}
+.port-title .text, .serv-title .text {
+    color: #fff;
+    font-family: 'poly' !important;
+    font-style: italic;
+    text-transform: capitalize !important;
+    font-size: 40px !important;
+    letter-spacing: 1px !important;
+    padding-top: 20px;
+}
+.blog-wrap {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.blog-left {
+    width: 73%;
+    float: left;
+    margin-right: 4%;
+}
+.the-sidebar {
+    width: 20%;
+    float: left;
+    font-size: 15p;
+    font-size: 24px;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+#main .the-sidebar h3 {
+    padding-top: 0px !important;
+}
+#main .the-sidebar li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0px;
+    padding-top:25px;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+line-height:1em !important;
+
+}
+#main .the-sidebar li a {
+    color: #0079d4;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+
+
+}
+#main .the-sidebar li:hover {background: url() no-repeat 3px 7px;}
+#main .the-sidebar li a:hover {color:#333; text-decoration:underline;}
+.parent-pageid-1222 hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    background: url(/images/longline.png) no-repeat center 0;
+    height: 4px;
+    border: 0;
+    
+}
+.parent-pageid-1222 h2 {
+    font-family: 'poly';
+    font-style: italic;
+    color: #0076da;
+    font-size: 23px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.parent-pageid-1222 strong {
+    text-transform: uppercase;
+    font-family: 'TradeGothicW01-BoldCn20 675334';
+    font-weight: normal;
+}
+.parent-pageid-1222 #main p {
+    margin-bottom: 0;
+}
+.parent-pageid-1222 .entry-content a {
+    color: #0076da;
+    font-size: 18px;
+}
+h3 {
+    
+    font-size: 23px !important;
+    text-transform: none;
+    padding-top:50px;
+    font-weight:bold;
+}
+.type-post {
+    margin-bottom: 50px !important;
+}
+.entry-content .read-more {
+    float: right;
+tyupe}
+.meta-tags {
+    display: none !important;
+}
+.entry-title .text {
+    text-align: left;
+    font-size: 36px;
+    font-weight:bold;
+    color: #0079D4 !important;
+}
+.entry-meta li {
+    margin-left: 0 !important;
+    margin-right: 10px !important;
+    text-align: left !important;
+}
+.entry-meta {text-align: left !important;}
+.meta-author, .meta-date, .meta-comment, .meta-categories {
+    font-size:11px !important;
+    font-family: arial !important;
+}
+
+#postmeta {
+    
+}
+
+/*** RIGHT SIDEBAR TEMPLATE & SINGLE SERVICE PAGE ***/
+.page-template-right-sidebar-php .entry-content, .page-template-single-service-page-php .entry-content, .single .blog-left .type-post, .category .blog-left .type-post {
+    
+    float: left;
+    max-width:800px;
+}
+.page-template-right-sidebar-php .the-sidebar, .page-template-single-service-page-php .the-sidebar {
+    width: 20%;
+    float: left;
+    margin-left:20px;
+}
+.page-template-right-sidebar-php .text, .page-template-single-service-page-php .text {
+    padding-top: 20px;
+}
+#main li {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.single .entry-title h3 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height:1em;
+}
+.single-post .type-post .entry-content p:first-child {
+
+color: #444;
+padding: 20px;
+background-color: #F9F8F8;
+}
+
+.comments li {
+    list-style: none !important;
+    margin-left: 0 !important;
+    font-size: inherit !important;
+}
+.comments {
+    float: left;
+}
+
+/*** RESPONSIVE ***/
+@media only screen and (max-width: 959px) {
+    #contact-right-col {
+        background: url(/images/map-mobile.png) no-repeat;
+        width: 250px !important;
+        height: 440px;
+        position: relative;
+        margin: 0 auto !important;
+    }
+    #contact-right-col .marker {
+        left: 122px;
+        top: 222px;
+    }
+    .portfolio-item {
+        width: 100%;
+        max-width: 475px;
+        float: none;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .portfolio-item img {
+        width: 100%;
+    }
+    .portfolio-info {
+        top: -79px !important;
+    }
+    .portfolio-info a {
+        font-size: .8em;
+    }
+    .blog-wrap {
+        width: 93%;
+        padding: 0 20px;
+    }
+    .responsive {
+        width: 100% !important;
+        float: none !important;
+        margin-right: 0 !important;
+    }
+    .zcolumn .service-box {
+        height: auto;
+        background: transparent !important;
+        padding-left: 0;
+        width: 100%;
+    }
+    #call-us .wrapper.container, #phone-header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 35px;
+    }
+    #call-us .page-content p {padding-right:0;}
+    #call-us .page-content p a, #phone-header a {
+        font-size: 33px;
+        margin: 0 auto;
+        display: block;
+        width: 212px;
+        padding-right: 0;
+    }
+    #slider .row .twelvecol {padding-left: 0; padding-right: 0;}
+    .flexslider {display:none;}
+    .mobile-img {display:block;margin:0 !important;}
+    #the-premier-choice-for-law-firm-marketing .fourcol.page-title .text {font-size: 30px;}
+    #the-premier-choice-for-law-firm-marketing .fourcol {width: auto;}
+    .why-choose-ilawyer {line-height: 1;}
+    #services-we-offer .portfolio-header {text-align:center;padding-left:0;}
+    #contact-us-quote .portfolio-header, .footer .portfolio-header {
+       float: none;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .cform input, .cform textarea, .cform select {}
+    span.reqtxt, span.emailreqtxt {left: 275px;}
+    .statement {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .video-box img {
+        width: 100%;
+    }
+    .video-box {
+        width: 100%;
+    }
+    .video-wrapper {
+        padding: 0;
+    }
+    .video-desc {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header-new .row .twocol.logo {width: auto;}
+}
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    .portfolio-info {
+        top: -103px !important;
+    }   
+    .cform textarea, .cform input {width: 295px !important;}
+    input.cf-box-b {width: auto !important;}
+}
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .sf-menu a {
+        padding: 1.8em .5em;
+        font-size: 13px !important;
+    }
+}
+#sample-ideas b {
+ text-transform:uppercase;
+}
+
+.reason_wrap p {
+  padding:0px 15px 0px 15px;
+  margin-bottom:8px;
+}
+.reason_wrap a {
+ padding:5px 15px 5px 5px;
+}
+#video-wrapper {
+    float: left;
+    width: 31%;
+    margin-left: 0%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+}
+#video-wrapper-half {
+    float: left;
+    width: 40%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+#across {
+    float: left;
+    width: 100%;
+}
+    
+#video-samples h2 {
+    color: #000;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(37, 168, 241);
+    margin-bottom: 24px;
+}
+
+.rpwe-block h3 {line-height:1.2em !important; padding-top:0px;}
+
+.form7fields input { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-color: #777 !important; padding:10px !important; margin-bottom:5px !important;}
+
+.form7fields textarea { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-color: #777 !important; padding:10px !important; margin-bottom:5px !important;}
+
+.gfield_label {
+    display: none !important;
+}
+
+
+
+.header-new {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #000;
+}
+
+.header-new .logo a {
+    display: inline-block;
+    padding-top: 13px;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.header-new:hover .logo a {
+    /*   padding-top: 21px; header bounce on hover */
+}
+
+.header-new:hover .sf-menu a {
+    /*    padding: 2em 1em; removing header bounce on hover */
+}
+
+.header-new.duplicate {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+}
+
+.header-new .mainmenu {
+    /*float: left;*/
+    /*padding: 12px 0;*/
+    /*margin: 0 0 0 40px;*/
+    position: relative;
+    text-align: right;
+    margin-bottom: 0px;
+
+    /*font-weight: 600;*/
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-new .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .header-new .mainmenu {
+        display: none;
+    }
+}
+
+.header-new .responsive.menu {
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+.header-new .responsive.menu select {
+    padding: 10px;
+    font-weight: bold;
+    width: 280px;
+    height: 40px;
+    margin: 10px 0 20px 0;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header-new .responsive.menu {
+        display: block;
+    }
+}
+
+.header-new {
+    -webkit-transform: translateZ(0)
+}
+
+@media (max-width:768px){
+    .header-new .row .tencol {
+        margin: 0 auto;
+    }
+}
